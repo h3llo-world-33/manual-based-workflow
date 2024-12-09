@@ -3,7 +3,7 @@ on:
   workflow_dispatch: 
 jobs:
   on-demand:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: manual trigger
         run: echo " This is a manual trigger"
